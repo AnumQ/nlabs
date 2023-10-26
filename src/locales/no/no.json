@@ -1,0 +1,132 @@
+{
+  "title": "Få din GRATIS bok i dag!",
+  "description": "Vi gir bort en spesialutgave av en bok - KUN i DAG! Ikke gå glipp av denne fantastiske lesningen.",
+  "language": {
+    "en": "Engelsk",
+    "no": "Norsk"
+  },
+  "ctaTitle": "Få gratis bok nå!",
+  "footer": {
+    "privacyPolicy": "Persornvernerklæring",
+    "contactUs": "Kontakt oss",
+    "company": "Firma",
+    "termsAndConditions": "Villkår og betingelser"
+  },
+  "form": {
+    "submitTitle": "Send",
+    "labels": {
+      "firstName": "Fornavn",
+      "lastName": "Etternavn",
+      "email": "E-post",
+      "addressStreet": "Gateaddresse",
+      "addressCity": "By",
+      "addressPostalCode": "Postkode",
+      "addressCountry": "Land"
+    },
+    "placeHolders": {
+      "firstName": "Ola",
+      "lastName": "Nordmann",
+      "email": "ola.nordmann@mail.no",
+      "addressStreet": "Karl Johans Gate 3",
+      "addressCity": "Oslo",
+      "addressPostalCode": "0150",
+      "addressCountry": "Norge"
+    },
+    "errors": {
+      "firstName": {
+        "tooShort": "Fornavnet er for kort!",
+        "tooLong": "Fornavnet er for langt!",
+        "isRequired": "Fornavn er obligatorisk!"
+      },
+      "lastName": {
+        "tooShort": "Etternavnet er for kort!",
+        "tooLong": "Etternavnet er for langt!",
+        "isRequired": "Etternavn er obligatorisk!"
+      },
+      "email": {
+        "isInvalid": "E-posten er ugyldig",
+        "isRequired": "E-post er obligatorisk."
+      },
+      "addressStreet": {
+        "isRequired": "Gateaddresse er obligatorisk!"
+      },
+      "addressCity": {
+        "isRequired": "By er obligatorisk!"
+      },
+      "addressPostalCode": {
+        "isRequired": "Postkode er obligatorisk!"
+      },
+      "addressCountry": {
+        "isRequired": "Land er obligatorisk!"
+      }
+    }
+  },
+  "contactForm": {
+    "title": "Kontakt Oss",
+    "name": "Navn",
+    "email": "E-post",
+    "message": "Melding",
+    "send": "Send"
+  },
+  "privacyPolicy": {
+    "title": "Personvernregler for Labs",
+    "lastUpdated": "Sist oppdatert: 10.10.23",
+    "introduction": {
+      "part1": "Hos Labs respekterer og beskytter vi personvernet til brukerne våre. Denne personvernerklæringen forklarer hvordan vi samler inn, bruker, avslører og beskytter informasjonen din når du besøker nettstedet vårt ",
+      "link": "https://norwegianlab.com",
+      "part2": "NorwegianLab.com",
+      "part3": " bruker vår mobilapplikasjon eller engasjerer deg med våre andre tjenester.",
+      "warning": "Vennligst les denne personvernerklæringen nøye. Hvis du er uenig i vilkårene i denne personvernerklæringen, vennligst ikke tilgang nettstedet eller bruk tjenestene våre."
+    },
+    "collection": {
+      "title": "1. Innsamling av din informasjon",
+      "description": "Vi kan samle inn informasjon om deg på forskjellige måter:",
+      "personalData": "Personopplysninger: Du kan bli bedt om å oppgi bestemte personopplysninger, inkludert men ikke begrenset til ditt navn, e-postadresse og telefonnummer, når du registrerer deg for en konto eller bruker tjenestene våre.",
+      "usageData": "Bruksdata: Vi kan spore og samle inn data om aktiviteten din på nettstedet vårt, slik som IP-adressen din, nettlesertype og besøkte sider.",
+      "mobileData": "Mobildata: Hvis du bruker vår mobilapplikasjon, kan vi samle inn data relatert til din mobile enhet, dens programvare og din bruk av applikasjonen vår."
+    },
+    "use": {
+      "title": "2. Bruk av informasjonen din",
+      "description": "Vi kan bruke informasjonen vi samler inn om deg til å:",
+      "deliver": "Levere og forbedre tjenestene våre.",
+      "respond": "Svare på kundeserviceforespørsler.",
+      "process": "Behandle transaksjonene dine.",
+      "email": "Sende deg periodiske e-poster."
+    },
+    "disclosure": {
+      "title": "3. Avsløring av informasjonen din",
+      "description": "Vi selger ikke, handler ikke, eller overfører på annen måte dine personlig identifiserbare opplysninger til eksterne parter med mindre vi gir deg beskjed på forhånd."
+    },
+    "security": {
+      "title": "4. Sikkerhet",
+      "description": "Vi tar sikkerheten til dine personopplysninger alvorlig og bruker ulike tiltak for å beskytte dine personopplysninger. Til tross for disse tiltakene, kan vi ikke garantere at uautorisert tilgang, hacking, datatap eller brudd aldri vil forekomme."
+    },
+    "thirdPartyLinks": {
+      "title": "5. Lenker til tredjeparter",
+      "description": "Vi kan inkludere eller tilby tredjeparts produkter eller tjenester på vårt nettsted. Disse tredjepartssidene har separate og uavhengige personvernregler. Vi har ingen ansvar eller ansvar for innholdet og aktivitetene til disse lenkede sidene."
+    },
+    "children": {
+      "title": "6. Barns personvern",
+      "description": "Tjenesten vår er ikke ment for bruk av barn under 13 år, og vi samler ikke bevisst inn personopplysninger fra barn under 13 år."
+    },
+    "changes": {
+      "title": "7. Endringer i denne personvernerklæringen",
+      "description": "Vi kan oppdatere vår personvernerklæring fra tid til annen. Eventuelle endringer vil bli postet på denne siden med en oppdatert revisjonsdato."
+    },
+    "contact": {
+      "title": "8. Kontakt oss",
+      "description": "Hvis du har spørsmål om våre personvernpraksis, vennligst kontakt oss på:",
+      "emailLabel": "E-post:",
+      "email": "hello@anum.io"
+    }
+  },
+  "termsAndConditions": {
+    "title": "Vilkår og betingelser",
+    "introduction": "Vennligst les disse vilkårene og betingelsene ('Vilkår', 'Vilkår og betingelser') nøye før du bruker nettstedet (tjenesten) som drives av vårt selskap ('oss', 'vi' eller 'vårt').",
+    "acceptance": "Ved å få tilgang til eller bruke tjenesten, godtar du å være bundet av disse vilkårene. Hvis du er uenig i noen del av vilkårene, kan du ikke få tilgang til tjenesten.",
+    "changes": "Vi forbeholder oss retten til å endre eller erstatte disse vilkårene når som helst. Det er ditt ansvar å regelmessig sjekke disse vilkårene for endringer.",
+    "termination": "Vi kan avslutte eller suspendere tilgangen til tjenesten vår umiddelbart, uten forvarsel eller ansvar, av hvilken som helst grunn, inkludert, uten begrensning, hvis du bryter vilkårene.",
+    "governingLaw": "Disse vilkårene skal styres av lovene i vårt land, med unntak av dets lover om lovkonflikter.",
+    "contact": "For eventuelle spørsmål om disse vilkårene, vennligst kontakt oss."
+  }
+}

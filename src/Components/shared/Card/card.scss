@@ -1,0 +1,41 @@
+@import "./../../../styles/index.scss";
+
+.card {
+  @include card-layout;
+
+  // animation-name: pop-up;
+  // animation-duration: 0.2s;
+
+  .close {
+    float: right;
+    margin-right: 0.5rem;
+    width: $cross-size-width;
+    color: $primary-color;
+    transition: transform 0.2s ease;
+
+    &:hover {
+      cursor: pointer;
+      transform: scale(1.2);
+    }
+  }
+
+  &--closed {
+    // display: none;
+    // animation-name: pop-up-reverse;
+    // animation-duration: 0.2s;
+  }
+}
+
+@include tablet {
+  .card {
+    padding: (5vh, 5vw);
+    margin: 1.5em;
+  }
+}
+
+@include mobile {
+  .card {
+    padding: padding(4vh, 5vw);
+    margin: 0.5em;
+  }
+}

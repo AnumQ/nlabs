@@ -1,0 +1,39 @@
+@import "./../../../../styles/index.scss";
+
+.terms-container {
+  background-color: $secondary-color;
+  padding-top: 1vh;
+  padding-bottom: 5vh;
+
+  .terms-content {
+    // width: 90%;
+    margin: 0 auto;
+    padding: 0.5vh 1vw 0.5vh 1vw;
+
+    > * {
+      padding: 0.5vh 5vw 0.5vh 5vw;
+    }
+
+    h1,
+    h2 {
+      // background-color: red;
+      padding: 3vh 5vw 1vh 5vw;
+    }
+  }
+}
+
+@include tablet {
+  .terms-container {
+    .privacy-content {
+      width: 90%;
+    }
+  }
+}
+
+@include mobile {
+  .terms-container {
+    > * {
+      padding: 0.5vh 0vw 0.5vh 0vw;
+    }
+  }
+}

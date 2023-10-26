@@ -1,0 +1,37 @@
+@import "./_reset.scss";
+@import "./_variables.scss";
+@import "./functions.scss";
+@import "./_mixins.scss";
+@import "./_media-queries.scss";
+@import "./_animations.scss";
+
+body {
+  font-family: "Roboto", sans-serif;
+
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  color: $text-color-primary;
+  background-color: $background-color-primary;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+button {
+  color: $text-color-primary;
+}
+
+p {
+  font-size: 1.125rem; // 18px/16 = 1.125rem
+}
+
+button {
+  color: $text-color-primary;
+}
+
+@include mobile {
+  $font-multiplier: 0.1;
+}

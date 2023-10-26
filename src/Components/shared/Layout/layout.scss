@@ -1,0 +1,16 @@
+@import "./../../../styles/index.scss";
+
+.app {
+  @include flex-direction-column;
+  background-image: url("./../../../styles/images/bg-image.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  min-height: $full-height;
+
+  main {
+    flex-grow: 1;
+    display: flex; // Set child as a flex container
+    justify-content: center;
+  }
+}

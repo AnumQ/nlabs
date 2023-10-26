@@ -1,0 +1,53 @@
+@import "./../../../styles/index.scss";
+
+@mixin select-menu-background($color) {
+  border-right: 16px solid $color;
+  border-left: 5px solid $color;
+  border-top: 1px solid $color;
+  border-bottom: 1px solid $color;
+  background-color: $color;
+}
+
+.language {
+  height: inherit;
+  @include flex-end();
+
+  @include select-menu-background($select-menu-background-color);
+  border-radius: 6px;
+
+  .select-menu {
+    padding: 0.5rem 0.7rem 0.5rem 0.7rem;
+
+    width: 5rem;
+    appearance: none; /* Removes default dropdown arrow in some browsers */
+    -webkit-appearance: none; /* For Safari */
+    -moz-appearance: none; /* For Firefox */
+    padding-right: 20px; /* Space for the custom chevron */
+    box-sizing: border-box;
+    background: transparent; /* To make sure the custom chevron is visible */
+    outline: none;
+    border: none;
+    color: $text-color-primary;
+  }
+
+  &:hover {
+    cursor: pointer;
+    @include select-menu-background($hover-color);
+  }
+
+  &:focus {
+    cursor: pointer;
+    @include select-menu-background($focus-color);
+  }
+  .chevron {
+    position: absolute;
+    top: 52%;
+    transform: translateY(-50%);
+    pointer-events: none;
+
+    cursor: pointer;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}

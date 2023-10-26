@@ -1,0 +1,18 @@
+/* Set all padding */
+@function padding($top, $right: null, $bottom: null, $left: null) {
+  $right: if($right == null, $top, $right);
+  $bottom: if($bottom == null, $top, $bottom);
+  $left: if($left == null, $right, $left);
+
+  @return $top $right $bottom $left;
+}
+
+/* Set only horizontal padding */
+@function horizontal-padding($left, $right: $left) {
+  @return 0 $right 0 $left;
+}
+
+/* Set only vertical padding */
+@function vertical-padding($top, $bottom: $top) {
+  @return $top 0 $bottom 0;
+}

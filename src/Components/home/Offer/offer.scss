@@ -1,0 +1,76 @@
+@import "./../../../styles/index.scss";
+
+$content-web-padding: 4rem;
+$content-tablet-padding-top-bottom: 3 rem;
+$content-tablet-padding-right-left: 2rem;
+$content-mobile-padding: 6vw; // Best results between different mobiles phones
+
+$title-mobile-font-size: 8vw;
+.offer-container {
+  @include flex-center;
+  height: inherit;
+  flex-grow: 1;
+
+  &--isopen {
+    z-index: 1;
+    animation-name: slide-up-bottom;
+    animation-duration: 1s;
+  }
+  &--closed {
+    z-index: -1;
+    display: none;
+
+    opacity: 0;
+    animation: pop-up-reverse 0.2s;
+  }
+  .offer-content {
+    @include flex-direction-column;
+    padding: $content-web-padding;
+    max-width: 30rem;
+    justify-content: space-between;
+    text-align: center;
+
+    .offer-title {
+      line-height: 2.3rem;
+      font-weight: 400;
+      font-size: 1.7rem;
+    }
+
+    .offer-description {
+      font-size: $desc-web-font-size;
+      padding: padding(1rem, 2rem, 5vh, 2rem);
+    }
+
+    button {
+      text-transform: uppercase;
+    }
+  }
+}
+
+@include tablet {
+  .offer-container {
+    .offer-content {
+      padding: padding(
+        $content-tablet-padding-top-bottom,
+        $content-tablet-padding-right-left
+      );
+    }
+  }
+}
+
+@include mobile {
+  .offer-container {
+    .offer-content {
+      padding: $content-mobile-padding;
+      .offer-title {
+        font-size: $title-mobile-font-size; // 8vw;
+      }
+      .offer-description {
+        // background-color: red;
+        padding: padding(3vh, 1vw);
+
+        font-size: $desc-mobile-font-size;
+      }
+    }
+  }
+}

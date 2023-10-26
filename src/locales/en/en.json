@@ -1,0 +1,133 @@
+{
+  "title": "Grab your FREE book today!",
+  "description": "We are giving away a special edition of a book for a limited time. Don't miss out on this captivating read.",
+  "language": {
+    "en": "English",
+    "no": "Norwegian"
+  },
+  "ctaTitle": "Get free book now!",
+  "footer": {
+    "privacyPolicy": "Privacy Policy",
+    "contactUs": "Contact Us",
+    "company": "Company",
+    "termsAndConditions": "Terms and Conditions"
+  },
+  "form": {
+    "submitTitle": "Submit",
+    "labels": {
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "email": "Email",
+      "addressStreet": "Street Address",
+      "addressCity": "City",
+      "addressPostalCode": "Postal Code",
+      "addressCountry": "Country"
+    },
+    "placeHolders": {
+      "firstName": "John",
+      "lastName": "Doe",
+      "email": "john.doe@mail.com",
+      "addressStreet": "123 Main St",
+      "addressCity": "New York",
+      "addressPostalCode": "10001",
+      "addressCountry": "USA"
+    },
+    "errors": {
+      "firstName": {
+        "tooShort": "First name is too short!",
+        "tooLong": "First name is too long!",
+        "isRequired": "First name is required!"
+      },
+      "lastName": {
+        "tooShort": "Last name is too short!",
+        "tooLong": "Last name is too long!",
+        "isRequired": "Last name is required!"
+      },
+      "email": {
+        "isInvalid": "Email is invalid",
+        "isRequired": "Email is required."
+      },
+      "addressStreet": {
+        "isRequired": "Street address is required!"
+      },
+      "addressCity": {
+        "isRequired": "City is required!"
+      },
+      "addressPostalCode": {
+        "isRequired": "Postal code is required!"
+      },
+      "addressCountry": {
+        "isRequired": "Country is required!"
+      }
+    }
+  },
+  "contactForm": {
+    "title": "Contact Us",
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "send": "Send"
+  },
+  "privacyPolicy": {
+    "title": "Privacy Policy for Labs",
+    "lastUpdated": "Last updated: 10.10.23",
+    "introduction": {
+      "part1": "At Labs, we respect and protect the privacy of our users. This privacy policy explains how we collect, use, disclose, and safeguard your information when you visit our website ",
+      "link": "https://norwegianlab.com/",
+      "part2": "NorwegianLab.com",
+      "part3": " use our mobile application, or engage with our other services.",
+
+      "warning": "Please read this privacy policy carefully. If you disagree with the terms of this privacy policy, please do not access the site or use our services."
+    },
+    "collection": {
+      "title": "1. Collection of Your Information",
+      "description": "We may collect information about you in various ways:",
+      "personalData": "Personal Data: You may be asked to provide certain personal information, including but not limited to your name, email address, and phone number, when you register for an account or use our services.",
+      "usageData": "Usage Data: We may track and collect data about your activity on our site, such as your IP address, browser type, and pages visited.",
+      "mobileData": "Mobile Device Data: If using our mobile application, we may collect data related to your mobile device, its software, and your use of our application."
+    },
+    "use": {
+      "title": "2. Use of Your Information",
+      "description": "We may use the information we collect about you to:",
+      "deliver": "Deliver and improve our services.",
+      "respond": "Respond to customer service requests.",
+      "process": "Process your transactions.",
+      "email": "Send you periodic emails."
+    },
+    "disclosure": {
+      "title": "3. Disclosure of Your Information",
+      "description": "We do not sell, trade, or otherwise transfer to outside parties your personally identifiable information unless we provide you with advance notice."
+    },
+    "security": {
+      "title": "4. Security",
+      "description": "We take your personal information's security seriously and use various measures to protect your personal information. Despite these measures, we cannot guarantee that unauthorized access, hacking, data loss, or breaches will never occur."
+    },
+    "thirdPartyLinks": {
+      "title": "5. Third-party Links",
+      "description": "We may include or offer third-party products or services on our website. These third-party sites have separate and independent privacy policies. We have no responsibility or liability for the content and activities of these linked sites."
+    },
+    "children": {
+      "title": "6. Children's Privacy",
+      "description": "Our service is not intended for use by children under the age of 13, and we do not knowingly collect personal information from children under 13."
+    },
+    "changes": {
+      "title": "7. Changes to This Privacy Policy",
+      "description": "We may update our Privacy Policy from time to time. Any changes will be posted on this page with an updated revision date."
+    },
+    "contact": {
+      "title": "8. Contact Us",
+      "description": "If you have questions about our privacy practices, please contact us at:",
+      "emailLabel": "Email:",
+      "email": "hello@anum.io"
+    },
+    "termsAndConditions": {
+      "title": "Terms and Conditions",
+      "introduction": "Please read these Terms and Conditions ('Terms', 'Terms and Conditions') carefully before using the website (the 'Service') operated by our company ('us', 'we', or 'our').",
+      "acceptance": "By accessing or using the Service, you agree to be bound by these Terms. If you disagree with any part of the terms, then you may not access the Service.",
+      "changes": "We reserve the right to modify or replace these Terms at any time. It's your responsibility to review these Terms periodically for changes.",
+      "termination": "We may terminate or suspend access to our Service immediately, without prior notice or liability, for any reason whatsoever, including, without limitation, if you breach the Terms.",
+      "governingLaw": "These Terms shall be governed by the laws of our country, excluding its conflicts of law rules.",
+      "contact": "For any questions about these Terms, please contact us."
+    }
+  }
+}

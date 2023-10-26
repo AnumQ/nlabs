@@ -1,0 +1,68 @@
+@import "./../../styles/index.scss";
+
+.footer {
+  background-color: $secondary-color;
+  padding: vertical-padding(2vh);
+  border-top: 1px solid $footer-border-color;
+  display: grid;
+  gap: 0.2rem;
+
+  .links-wrapper {
+    display: flex;
+    justify-content: center;
+
+    .links-container {
+      display: flex;
+      // background-color: yellow;
+      justify-content: left;
+      .info-div {
+        // background-color: red;
+        .custom-link {
+          color: $text-color-primary;
+          font-size: 0.8rem;
+          text-decoration: none;
+
+          &:focus,
+          &:hover {
+            color: $label-color;
+            text-decoration: underline;
+          }
+        }
+      }
+
+      .pipe {
+        top: 0.225rem;
+        position: relative;
+        width: 0.0625rem;
+        height: 1.125rem;
+        background: #ccc;
+        margin: 0 1.25rem 0 1.25rem;
+      }
+    }
+  }
+
+  .copyright-div {
+    text-align: center;
+    align-content: center;
+    font-size: 0.75rem;
+    color: $text-color-secondary;
+  }
+}
+
+@include mobile {
+  .footer {
+    .links-wrapper {
+      justify-content: left;
+
+      .links-container {
+        flex-direction: column;
+        padding: horizontal-padding(10vw);
+        margin-bottom: 0.5rem;
+
+        .pipe {
+          display: none;
+        }
+      }
+    }
+  }
+}

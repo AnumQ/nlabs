@@ -1,0 +1,34 @@
+@import "./../../styles/index.scss";
+
+.header {
+  position: sticky;
+  position: -webkit-sticky; /* For Safari */
+  top: 0;
+  z-index: 1000;
+  background: linear-gradient($header-bg-scrolled-color1, transparent);
+  transition: background 0.3s ease-in, box-shadow 0.3s ease-in;
+  display: flex;
+  justify-content: space-between;
+  padding: padding(1.2rem, 1.5rem);
+
+  .home-icon-container {
+    @include flex-center;
+
+    .home-icon {
+      color: $primary-color;
+    }
+  }
+
+  &--scrolled {
+    background: linear-gradient(
+      $header-bg-scrolled-color1,
+      $header-bg-scrolled-color2
+    );
+  }
+}
+
+@include mobile {
+  .header {
+    padding: padding(1rem, 5vw);
+  }
+}

@@ -1,0 +1,55 @@
+@import "./../../../styles/index.scss";
+
+.userform-container {
+  display: flex;
+  &--isopen {
+    animation: pop-up 0.2s;
+  }
+  &--closed {
+    z-index: -1;
+    animation: pop-up-reverse 0.2s;
+
+    display: none;
+  }
+
+  .card {
+    .form {
+      flex-direction: column;
+      padding: padding(3vh, 1vw, 1vh, 3vw);
+      width: 40rem;
+      margin-top: 3vh;
+      margin-right: 2vw;
+
+      button {
+        height: 3rem;
+        background: $button-background;
+        width: 100%;
+
+        border-radius: 5px;
+
+        &:hover {
+          background: $button-hover-background;
+        }
+      }
+    }
+  }
+}
+@include tablet {
+  .userform-container {
+    .card {
+      .form {
+        width: 80vw;
+      }
+    }
+  }
+}
+
+@include mobile {
+  .userform-container {
+    .card {
+      .form {
+        width: 85vw;
+      }
+    }
+  }
+}

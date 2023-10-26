@@ -1,0 +1,37 @@
+/* Animation */
+@keyframes pop-up {
+  from {
+    z-index: 0;
+    transform: scale(0.1);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+    z-index: 1;
+  }
+}
+
+@keyframes pop-up-reverse {
+  from {
+    transform: scale(1);
+    opacity: 1;
+  }
+
+  to {
+    transform: scale(0.1);
+    opacity: 0;
+  }
+}
+
+/* Animation */
+@keyframes slide-up-bottom {
+  from {
+    opacity: 0;
+    transform: translateY(30%);
+  }
+  to {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+}

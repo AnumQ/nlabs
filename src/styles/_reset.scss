@@ -1,0 +1,107 @@
+/* Reset margins and padding */
+html,
+body,
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul,
+li,
+form,
+fieldset,
+legend,
+input,
+textarea,
+button,
+select,
+table,
+th,
+td {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set border box-sizing for all elements */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove list styles */
+ol,
+ul {
+  list-style: none;
+}
+
+/* Set base font family */
+body {
+  font-family: sans-serif;
+  line-height: 1.6;
+  font-size: 100%;
+}
+
+/* Remove anchor text decoration */
+a {
+  text-decoration: none;
+}
+
+/* Remove all outline properties */
+:focus {
+  outline: none;
+}
+
+/* Remove default button styles */
+button,
+input[type="button"],
+input[type="submit"],
+input[type="reset"] {
+  background: none;
+  cursor: pointer;
+  border: none;
+}
+
+/* Handle form element default styling */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea,
+select {
+  border: 1px solid #ccc;
+}
+
+/* Clear both for ::after pseudo elements */
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Set common baseline styling for images and figures */
+img,
+figure {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Reset table styles */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Handle fieldset default styling */
+fieldset,
+img {
+  border: 0;
+}
+
+/* Handle IE10+ clear */
+input[type="search"]::-ms-clear {
+  display: none;
+}

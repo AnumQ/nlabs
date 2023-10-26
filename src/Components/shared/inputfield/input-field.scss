@@ -1,0 +1,58 @@
+@import "./../../../styles/index.scss";
+
+.field-wrapper {
+  margin-top: 0.2rem;
+  margin-bottom: 0.2rem;
+
+  display: flex;
+  flex-direction: column;
+
+  label {
+    font-weight: 600;
+    font-size: 0.9rem;
+  }
+  .input-field {
+    display: flex;
+    justify-content: space-between;
+    background-color: $secondary-color;
+    border-radius: 0.2rem;
+
+    input {
+      @include custom-input-field;
+
+      /* Autofill-color */
+      @include webkit-autofill-color;
+      @include moz-autofill-color;
+
+      /* Placeholder */
+      @include placeholder-color;
+    }
+
+    .alert {
+      margin-right: 0.675rem;
+      color: $error-color;
+      // width: $icon-size-width;
+      // background-color: yellow;
+    }
+  }
+
+  .label {
+    font-family: Roboto, "Helvetica Neue";
+    text-align: left;
+    font-size: 0.7rem;
+    margin-bottom: 0.3rem;
+    color: $label-color;
+  }
+
+  .error {
+    display: inline;
+    // height: 1rem;
+    font-style: normal;
+    font-size: 0.675rem;
+    line-height: 1.25rem;
+    text-align: left;
+    color: $error-color;
+    margin: 0.2rem;
+    letter-spacing: 0.05rem;
+  }
+}

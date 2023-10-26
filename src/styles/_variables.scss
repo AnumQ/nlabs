@@ -1,0 +1,75 @@
+// Colors
+// $primary-color: rgb(45, 74, 87);
+$primary-color: #124b50;
+$secondary-color: #000000;
+$hover-color: #2a6a70;
+$focus-color: #12737b;
+$button-color: $primary-color;
+$select-menu-background-color: #182123;
+$select-menu-hover-background-color: #1b2324;
+// Colors - Text
+$text-color-primary: #d1d1d1;
+$text-color-secondary: #777777;
+
+// Colors - InputField
+$label-color: #9bb2b6;
+$placeholder-color: #667085;
+$error-color: #f5512d;
+
+// Colors - footer
+$footer-border-color: #6e6e6ea0;
+
+// Colors - Headers
+$header-box-shadow-color: rgba(45, 45, 45, 0.1);
+$header-box-shadow-color: rgba(0, 0, 0, 0.1);
+$header-bg-color: #0b131b;
+$header-bg-scrolled-color1: #000000;
+$header-bg-scrolled-color2: rgb(10 20 26);
+
+// Widths
+$breakpoint-tablet: 48rem;
+$breakpoint-mobile: 30rem;
+
+// Heights
+$full-height: 100vh;
+$header-height-max-screen-600: 10vh;
+$button-height: 4rem;
+
+// Corner-radius
+$button-radius: 1rem;
+
+// Font-size - Button
+$button-web-font-size: 1.25rem;
+$button-tablet-font-size: 1.5rem;
+$button-mobile-font-size: 1rem;
+
+// Font-size Desc
+$desc-web-font-size: 1rem;
+$desc-mobile-font-size: 0.7rem;
+
+// Padding
+
+// Background
+$background-color-primary: #000000;
+$button-background: linear-gradient(
+  333.52deg,
+  $button-color -63.68%,
+  rgba(170, 162, 203, 0) 275.81%
+);
+
+$button-hover-background: linear-gradient(
+  333.52deg,
+  $hover-color -63.68%,
+  rgba(250, 250, 250, 0) 275.81%
+);
+
+// Icon size
+$icon-size-width: 1.8rem;
+$cross-size-width: 1.2rem;
+
+// Paddings
+$button-padding: 3vh;
+
+// Font
+
+/* Rectangle 15 */

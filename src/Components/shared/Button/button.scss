@@ -1,0 +1,25 @@
+@import "./../../../styles/index.scss";
+
+.ctp-btn {
+  background: $button-background;
+  border-radius: $button-radius;
+  font-size: $button-web-font-size;
+  cursor: pointer;
+  width: 100%;
+  padding: padding(3vh, 2vw);
+  color: $text-color-primary;
+  // border: none;
+  line-height: 1.5rem;
+  transition: background 0.5s ease;
+
+  @include tablet {
+    font-size: $button-tablet-font-size;
+  }
+  @include mobile {
+    font-size: $button-mobile-font-size;
+  }
+
+  &:hover {
+    background: $button-hover-background;
+  }
+}

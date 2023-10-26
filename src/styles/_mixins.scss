@@ -1,0 +1,83 @@
+/* Mixin */
+/* Align child elements in the center of the parent  */
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin flex-direction-column {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Align child elements to the end of the parent */
+@mixin flex-end {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+/* Placeholder styles - different browser support  */
+@mixin placeholder-color {
+  &::placeholder,
+  &::-webkit-input-placeholder,
+  &::-moz-placeholder,
+  &:-ms-input-placeholder,
+  &:-moz-placeholder {
+    color: $placeholder-color;
+  }
+}
+
+/* Autofill styles - webkit browser support  */
+@mixin webkit-autofill-color {
+  &:-webkit-autofill,
+  &:-webkit-autofill:hover,
+  &:-webkit-autofill:focus,
+  &:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0 30px $secondary-color inset !important;
+    -webkit-text-fill-color: $text-color-primary !important;
+  }
+}
+
+/* Autofill styles - mozilla browser support  */
+@mixin moz-autofill-color {
+  &:-moz-autofill,
+  &:-moz-autofill:hover,
+  &:-moz-autofill:focus,
+  &:-moz-autofill:active {
+    -moz-box-shadow: 0 0 0 30px $secondary-color inset !important;
+    -moz-text-fill-color: $text-color-primary !important;
+  }
+}
+
+/* Input field style for forms */
+@mixin custom-input-field {
+  flex-grow: 1;
+  font-size: 1rem;
+  border: none;
+  padding: 0.7rem 0.7rem 0.7rem 0.4rem;
+  margin-left: 0.3rem;
+  background-color: $secondary-color;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  color: $label-color;
+}
+
+/* Submit button in Forms */
+@mixin form-submit-button {
+  height: 3rem;
+  background: $button-background;
+  border-radius: 5px;
+
+  &:hover {
+    background: $button-hover-background;
+  }
+}
+
+/* Card */
+@mixin card-layout {
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 0.125;
+  padding: 1.5rem;
+  margin: 1em;
+}
