@@ -11,6 +11,10 @@
   flex-direction: column;
 }
 
+@mixin flex-justify-content-center {
+  display: flex;
+  justify-content: center;
+}
 /* Align child elements to the end of the parent */
 @mixin flex-end {
   display: flex;

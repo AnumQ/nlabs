@@ -12,7 +12,7 @@ export interface Props {
   onClose: () => void;
 }
 
-/* Form with user details */
+/* Form to collect user details */
 export const UserForm: React.FC<Props> = ({ isVisible, onClose }) => {
   const schema = FormikSchema();
   const { t } = useTranslation();

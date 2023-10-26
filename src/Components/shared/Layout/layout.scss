@@ -9,8 +9,7 @@
   min-height: $full-height;
 
   main {
+    @include flex-justify-content-center;
     flex-grow: 1;
-    display: flex; // Set child as a flex container
-    justify-content: center;
   }
 }

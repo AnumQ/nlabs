@@ -8,15 +8,13 @@
   gap: 0.2rem;
 
   .links-wrapper {
-    display: flex;
-    justify-content: center;
+    @include flex-justify-content-center;
 
     .links-container {
       display: flex;
-      // background-color: yellow;
       justify-content: left;
+
       .info-div {
-        // background-color: red;
         .custom-link {
           color: $text-color-primary;
           font-size: 0.8rem;
@@ -55,7 +53,7 @@
       justify-content: left;
 
       .links-container {
-        flex-direction: column;
+        @include flex-direction-column;
         padding: horizontal-padding(10vw);
         margin-bottom: 0.5rem;
 

@@ -33,7 +33,7 @@ function Footer() {
       </div>
 
       <div className="copyright-div">
-        &copy; {new Date().getFullYear()} Labs. All rights reserved.
+        &copy; {new Date().getFullYear()} Labs. {t("footer.copyright")}
       </div>
     </footer>
   );

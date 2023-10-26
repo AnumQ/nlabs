@@ -10,10 +10,11 @@
     "privacyPolicy": "Persornvernerklæring",
     "contactUs": "Kontakt oss",
     "company": "Firma",
-    "termsAndConditions": "Villkår og betingelser"
+    "termsAndConditions": "Villkår og betingelser",
+    "copyright": "Alle rettigheter forbeholdt."
   },
   "form": {
-    "submitTitle": "Send",
+    "submitTitle": "Send inn",
     "labels": {
       "firstName": "Fornavn",
       "lastName": "Etternavn",

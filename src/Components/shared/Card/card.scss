@@ -3,9 +3,6 @@
 .card {
   @include card-layout;
 
-  // animation-name: pop-up;
-  // animation-duration: 0.2s;
-
   .close {
     float: right;
     margin-right: 0.5rem;
@@ -17,12 +14,6 @@
       cursor: pointer;
       transform: scale(1.2);
     }
-  }
-
-  &--closed {
-    // display: none;
-    // animation-name: pop-up-reverse;
-    // animation-duration: 0.2s;
   }
 }
 
